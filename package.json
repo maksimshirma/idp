@@ -1,0 +1,26 @@
+{
+  "name": "individual-development-plan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "strategy": "tsx ./strategy/main.ts",
+    "template-method": "tsx ./template-method/main.ts",
+    "abstract-factory": "tsx ./abstract-factory/main.ts",
+    "command": "tsx ./command/main.ts",
+    "adapter": "tsx ./adapter/main.ts",
+    "husbands-in-market": "tsx ./husbands-in-market/main.ts",
+    "test-task": "tsx ./test-task/main.ts",
+    "spammer": "tsx ./spammer/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isdayoff": "^1.0.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.2.2"
+  }
+}
